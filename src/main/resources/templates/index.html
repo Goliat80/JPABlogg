@@ -6,6 +6,7 @@
 </head>
 <body>
 <p>Hello world</p>
+<<<<<<< HEAD
 
 <form th:action="@{posts}" th:object="${posts}" method="post">
     <p>Headline: <input type="text" th:field="*{Headline}"></p>
@@ -14,6 +15,8 @@
 </form>
 
 
+=======
+>>>>>>> 84bcfb4f88f0000e9a448c3067e528011697dbad
 <p th:each="user : ${Users}" th:text="${user.getUsername()}"></p>
 </body>
 </html>
